@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#F6EFE7">
+<title>Поддержка — Sana</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+  :root { color-scheme: light; --bg: #F6EFE7; --ink: #161316; --ink-soft: rgba(22,19,22,.62); --line: rgba(22,19,22,.1); --accent: #FF6D29; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+  header, main, footer { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 28px; padding-bottom: 8px; }
+  .brand { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 22px; text-decoration: none; color: inherit; }
+  .brand img { width: 32px; height: 32px; border-radius: 8px; }
+  h1 { font-size: clamp(32px, 6vw, 44px); line-height: 1.1; letter-spacing: -.02em; margin: 32px 0 8px; }
+  h2 { font-size: 22px; margin: 36px 0 8px; }
+  h3 { font-size: 18px; margin: 24px 0 4px; }
+  .meta { color: var(--ink-soft); margin: 0 0 24px; }
+  p, li { max-width: 65ch; }
+  ul { padding-left: 1.2em; }
+  a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  .lang { display: flex; gap: 16px; margin-top: 8px; color: var(--ink-soft); }
+  .btn { display: inline-block; margin: 8px 0; padding: 14px 22px; border-radius: 999px; background: var(--ink); color: var(--bg); font-weight: 600; text-decoration: none; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  footer { padding-top: 24px; padding-bottom: 48px; color: var(--ink-soft); font-size: 15px; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+</style>
+</head>
+<body>
+<header><a class="brand" href="index.html"><img src="assets/sana-icon.png" alt="">Sana</a></header>
+<main>
+<h1>Поддержка</h1>
+<p class="meta"><a href="#en">English</a></p>
+<p>Что-то не работает, непонятно или хочется предложить идею — напишите нам в Telegram. Отвечаем обычно в течение дня.</p>
+<a class="btn" href="https://t.me/sana_app_support_bot">Написать в Telegram</a>
+<p>Из приложения быстрее: Профиль → «Написать в поддержку». Тогда мы сразу увидим версию приложения и iOS.</p>
+
+<h2>Частые вопросы</h2>
+<h3>Где хранятся мои данные?</h3>
+<p>На телефоне и, если включена резервная копия, в вашем iCloud. На сервер уходит только фото чека при сканировании, и оно не сохраняется. Подробнее — в <a href="privacy.html">политике конфиденциальности</a>.</p>
+<h3>Как настроить автозапись Apple Pay?</h3>
+<p>Профиль → «Автозапись Apple Pay» — там пошаговая инструкция. Понадобится один раз создать автоматизацию в приложении «Команды».</p>
+<h3>Как загрузить выписку Kaspi?</h3>
+<p>В приложении Kaspi.kz сохраните выписку по карте в PDF, затем в Sana: Профиль → «Импорт выписки Kaspi». Повторные траты не задвоятся.</p>
+<h3>Сколько бесплатных сканов чеков?</h3>
+<p>10 сканов в месяц с распознаванием ИИ. Когда они закончатся, чеки распознаются на телефоне — тоже бесплатно, но чуть менее точно.</p>
+<h3>Как перенести данные на новый iPhone?</h3>
+<p>На старом телефоне: Профиль → «Данные и резервная копия» → «Резервная копия в iCloud». На новом, с тем же Apple ID, там же — «Восстановить из iCloud».</p>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>Support</h1>
+<p>Something broken, unclear, or have an idea? Message us on Telegram — we usually reply within a day.</p>
+<a class="btn" href="https://t.me/sana_app_support_bot">Message on Telegram</a>
+<p>From the app: Profile → "Contact support", so we see your app and iOS version right away.</p>
+<p>Your data stays on your phone and in your iCloud; only receipt photos are sent for reading and aren't stored. See the <a href="privacy.html#en">privacy policy</a>.</p>
+</section>
+</main>
+<footer><span>© 2026 Sana</span><a href="index.html">Главная</a><a href="privacy.html">Конфиденциальность</a><a href="support.html">Поддержка</a></footer>
+</body>
+</html>
